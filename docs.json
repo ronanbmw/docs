@@ -16,22 +16,22 @@
           {
             "group": "API Documentation",
             "pages": [
-              "api/introduction",
-              "api/sdk"
+              "api-reference/introduction",
+              "api-reference/sdk"
             ]
           },
           {
             "group": "API",
             "pages": [
-              "api/endpoint/createTask",
-              "api/endpoint/getTaskResult"
+              "api-reference/endpoint/createTask",
+              "api-reference/endpoint/getTaskResult"
             ]
           },
           {
             "group": "Tasks",
             "pages": [
-              "api/endpoint/createTask",
-              "api/endpoint/getTaskResult"
+              "api-reference/endpoint/createTask",
+              "api-reference/endpoint/getTaskResult"
             ]
           }
         ]
