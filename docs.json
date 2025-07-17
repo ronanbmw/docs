@@ -26,6 +26,13 @@
               "api-reference/endpoint/createTask",
               "api-reference/endpoint/getTaskResult"
             ]
+          },
+          {
+            "group": "Tasks",
+            "pages": [
+              "api-reference/endpoint/createTask",
+              "api-reference/endpoint/getTaskResult"
+            ]
           }
         ]
       }
