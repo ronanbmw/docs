@@ -45,7 +45,7 @@
         {
           "anchor": "Support",
           "href": "https://t.me/@salamoonder_bot",
-          "icon": "newspaper"
+          "icon": "headset"
         }
       ]
     }
@@ -66,5 +66,5 @@
       "label": "Dashboard",
       "href": "https://salamoonder.com/dashboard/profile"
     }
-  },
+  }
 }
