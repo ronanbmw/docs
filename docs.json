@@ -23,8 +23,8 @@
           {
             "group": "API",
             "pages": [
-              "api-reference/endpoint/createTask",
-              "api-reference/endpoint/getTaskResult"
+              "api-documentation/endpoint/createTask",
+              "api-documentation/endpoint/getTaskResult"
             ]
           }
         ]
