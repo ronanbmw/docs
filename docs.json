@@ -11,10 +11,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Salamoonder",
+        "tab": "API Documentation",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Salamoonder",
             "pages": [
               "api-reference/introduction",
               "api-reference/sdk"
