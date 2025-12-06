@@ -18,9 +18,8 @@
             "pages": [
               "api-documentation/introduction",
               {
-                "group": "SDK",
-                "expanded": false,
-                "icon": "code",
+                "group": "Software Development Kit",
+                "expanded": true,
                 "pages": [
                   "api-documentation/sdk/official",
                   "api-documentation/sdk/community"
