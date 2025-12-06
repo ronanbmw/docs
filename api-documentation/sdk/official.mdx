@@ -27,7 +27,11 @@ task_id = api.createTask(
     submit_payload=True
 )
 
-solution = salamoonder_api.getTaskResult(api_key="YOUR_API_KEY_HERE", task_id=task_id)
+solution = salamoonder_api.getTaskResult(
+    api_key="YOUR_API_KEY_HERE", 
+    task_id=task_id
+)
+
 print("Solution:", solution)
 ```
 
