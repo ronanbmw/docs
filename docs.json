@@ -16,8 +16,8 @@
           {
             "group": "Salamoonder",
             "pages": [
-              "api-reference/introduction",
-              "api-reference/sdk"
+              "api-documentation/introduction",
+              "api-documentation/sdk"
             ]
           },
           {
