@@ -14,7 +14,7 @@
         "tab": "API Documentation",
         "groups": [
           {
-            "group": "Welcome to Salamoonder",
+            "group": "Welcome to Salamoonder!",
             "pages": [
               "api-documentation/introduction",
               "api-documentation/getting-started",
