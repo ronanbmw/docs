@@ -20,13 +20,11 @@
                   "group": "Welcome",
                   "expanded": true,
                   "pages": [
-                    "api-documentation/introduction",
-                    "api-documentation/getting-started"
+                      "api-documentation/introduction",
+                      "api-documentation/getting-started",
+                      "api-documentation/use-case"
                   ]
               },
-              "api-documentation/introduction",
-              "api-documentation/getting-started",
-              "api-documentation/use-case",
               "api-documentation/changelogs"
             ]
           },
