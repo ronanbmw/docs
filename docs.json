@@ -33,17 +33,17 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Website",
+          "anchor": "Our Website",
           "href": "https://salamoonder.com",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Github",
+          "anchor": "Official Github",
           "href": "https://github.com/Salamoonder-LLC",
           "icon": "slack"
         },
         {
-          "anchor": "Support",
+          "anchor": "24/7 Support",
           "href": "https://t.me/@salamoonder_bot",
           "icon": "headset"
         }
