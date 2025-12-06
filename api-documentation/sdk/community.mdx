@@ -1,0 +1,76 @@
+---
+title: "Community"
+description: "Thanks to our users, some have created their own Software Development Kit (SDK). Keep in mind we haven't fully checked them, so make sure you understand what you're running."
+---
+
+<Warning>
+  Keep in mind that this is maintained by users and the code can change at any time. We do not actively watch for updates, so be sure to check the source yourself.
+</Warning>
+
+<Columns cols={2}>
+  <Card title="kappador/salamoonder" icon="meteor" iconType="solid" href="https://github.com/Kappador/salamoonder">
+    This JavaScript SDK is quite old and doesn't have our latest tasks
+  </Card>
+  <Card title="JuanBrotenelle/go_salamoonder" icon="person-running-fast" iconType="solid" href="https://github.com/JuanBrotenelle/go_salamoonder">
+    This GO SDK is actively maintained and includes useful helper functions 
+  </Card>
+</Columns>
+
+Here are some simple examples for each SDK. They come straight from their GitHub, and they might be outdated.
+
+<CodeGroup>
+
+```javascript kappador/salamoonder.js
+import Salamoonder from "salamoonder";
+
+const api = new Salamoonder(process.env.SALAMOONDER_API_KEY, false);
+
+api.solveCaptcha(TaskPjsFile.TWITCH).then((response: getTaskResult) => {
+  console.log(response);
+});
+```
+
+
+```go JuanBrotenelle/salamoonder.go
+package main
+
+import (
+	"context"
+	"encoding/json"
+	"fmt"
+	"log"
+
+	"github.com/juanbrotenelle/go_salamoonder"
+)
+
+func main() {
+	client, err := salamoonder.New("sr-YOUR-API-KEY", nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	result, err := client.CreateTask(context.Background(), 
+		salamoonder.KasadaOptions{
+			Pjs:    "https://www.nike.com/.../.../p.js",
+			CdOnly: true,
+		}
+	)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	taskResult, err := client.Task(context.Background(), result.TaskId)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	var solution salamoonder.KasadaSolution
+	if err := json.Unmarshal(taskResult.Solution, &solution); err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Println(solution.UserAgent)
+}
+```
+
+</CodeGroup>
