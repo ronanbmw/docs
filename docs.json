@@ -19,6 +19,7 @@
               {
                   "group": "Welcome",
                   "expanded": true,
+                  "icon": "fa-hand",
                   "pages": [
                       "api-documentation/introduction",
                       "api-documentation/getting-started",
