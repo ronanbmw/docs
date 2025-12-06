@@ -17,6 +17,7 @@
             "group": "Salamoonder",
             "pages": [
               "api-documentation/introduction",
+              "api-documentation/changelogs",
               {
                 "group": "Software Development Kit",
                 "expanded": false,
@@ -24,8 +25,7 @@
                   "api-documentation/sdk/official",
                   "api-documentation/sdk/community"
                 ]
-              },
-              "api-documentation/changelogs"
+              }
             ]
           },
           {
