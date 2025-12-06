@@ -15,15 +15,15 @@
         "groups": [
           {
             "group": "Salamoonder",
-            {
-                "group": "Welcome",
-                "expanded": false,
-                "pages": [
-                  "api-documentation/introduction",
-                  "api-documentation/getting-started"
-                ]
-            },
             "pages": [
+              {
+                  "group": "Welcome",
+                  "expanded": true,
+                  "pages": [
+                    "api-documentation/introduction",
+                    "api-documentation/getting-started"
+                  ]
+              },
               "api-documentation/introduction",
               "api-documentation/getting-started",
               "api-documentation/use-case",
