@@ -15,6 +15,14 @@
         "groups": [
           {
             "group": "Salamoonder",
+            {
+                "group": "Welcome",
+                "expanded": false,
+                "pages": [
+                  "api-documentation/introduction",
+                  "api-documentation/getting-started"
+                ]
+            },
             "pages": [
               "api-documentation/introduction",
               "api-documentation/getting-started",
@@ -22,6 +30,7 @@
               "api-documentation/changelogs"
             ]
           },
+          
           {
             "group": "API",
             "pages": [
