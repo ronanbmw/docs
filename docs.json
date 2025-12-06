@@ -19,7 +19,7 @@
               "api-documentation/introduction",
               {
                 "group": "Software Development Kit",
-                "expanded": true,
+                "expanded": false,
                 "pages": [
                   "api-documentation/sdk/official",
                   "api-documentation/sdk/community"
