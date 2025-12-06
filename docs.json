@@ -24,7 +24,8 @@
                   "api-documentation/sdk/official",
                   "api-documentation/sdk/community"
                 ]
-              }
+              },
+              "api-documentation/changelogs"
             ]
           },
           {
